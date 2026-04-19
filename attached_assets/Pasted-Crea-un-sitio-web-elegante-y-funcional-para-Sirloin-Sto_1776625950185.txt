@@ -1,0 +1,123 @@
+Crea un sitio web elegante y funcional para "Sirloin Stockade – Forum Tlaquepaque", un restaurante tipo buffet familiar con gran variedad de platillos (carnes, mariscos, pastas y postres), ubicado en Guadalajara, Jalisco.
+
+DISEÑO Y ESTÉTICA:
+
+Paleta de colores: rojo oscuro (#8B0000), negro (#1C1C1C), gris claro (#F5F5F5), acentos dorados (#D4AF37)
+Tipografía: Sans-serif moderna para todo el sitio (estilo Montserrat o Open Sans)
+Fotografía de buffet y comida variada (usar placeholders de Unsplash: carnes, buffet, sushi, postres)
+Estilo visual moderno tipo restaurante familiar premium
+Animaciones suaves al hacer scroll (fade-in + slide-up)
+Espaciado amplio y limpio
+
+HERO SECTION:
+
+Imagen fullscreen de buffet atractivo con variedad de comida
+Overlay oscuro (40% opacity)
+Título grande: "Variedad sin Límites"
+Subtítulo: "Disfruta un buffet completo para toda la familia"
+CTA principal: "Ver menú"
+CTA secundario: "Cómo llegar"
+Indicador de scroll animado
+
+SOBRE EL RESTAURANTE:
+
+Layout dos columnas (texto + imagen buffet/restaurante)
+Descripción del concepto:
+Buffet con amplia variedad (carnes, mariscos, sushi, postres)
+Ambiente familiar
+Servicio tipo autoservicio con atención de meseros
+Puntos destacados con iconos:
+🍽️ +50 platillos
+👨‍👩‍👧‍👦 Ambiente familiar
+🧼 Higiene y limpieza
+Sección breve de experiencia del cliente
+
+INFORMACIÓN REAL (INTEGRACIÓN TIPO GOOGLE MAPS):
+
+Nombre: Sirloin Stockade
+Dirección: Blvd. Gral. Marcelino García Barragán 2077, Guadalajara, Jalisco
+Teléfono: +52 33 3838 5440
+Precio estimado: $300–400 MXN por persona
+Estado: Mostrar dinámicamente "Abierto ahora / Cerrado"
+Rating: 3.6 estrellas visuales
+Mostrar número de reseñas
+
+MENÚ INTERACTIVO (BUFFET):
+
+Categorías tipo tabs:
+Carnes
+Mariscos
+Sushi
+Pastas
+Postres
+Cada categoría muestra:
+Lista visual de alimentos (no precios individuales, aclarar "incluido en buffet")
+Descripción breve
+Sección destacada:
+"Todo incluido por un solo precio"
+Badge visual: "Buffet ilimitado"
+
+GALERÍA:
+
+Grid tipo masonry (3 columnas desktop, 1 mobile)
+Imágenes de:
+Buffet
+Platillos
+Ambiente
+Lightbox al hacer clic
+Hover con zoom suave
+
+RESEÑAS (BASADAS EN DATOS REALES):
+
+Mostrar 3 reseñas tipo Google:
+Positiva: "Excelente servicio, mucha variedad y buen sabor"
+Mixta: "Muy limpio comparado con otras sucursales"
+Crítica: "Precio alto para la calidad en algunos platillos"
+Cada reseña con:
+Estrellas
+Texto
+Tiempo (ej: "Hace 5 meses")
+Promedio general: ⭐ 3.6
+Diseño tipo tarjetas con sombra
+
+HORAS PICO:
+
+Gráfico simple de barras (simulado estilo Google Maps)
+Horarios:
+6am
+9am
+12pm (alto)
+3pm
+6pm (alto)
+9pm
+Indicar "Mayor concurrencia" visualmente
+
+UBICACIÓN Y CONTACTO:
+
+Mapa de Google Maps embebido centrado en la dirección
+Información con iconos:
+📍 Dirección completa
+📞 Teléfono clickeable
+🕒 Horario: Abierto, cierra a las 9 PM
+Botón: "Abrir en Google Maps"
+Botón: "Llamar ahora"
+
+FOOTER:
+
+Fondo oscuro (#1C1C1C)
+Columnas:
+Nombre + descripción corta
+Links (Inicio, Menú, Reseñas, Ubicación)
+Contacto
+Copyright
+Nota: "Información basada en Google Maps"
+
+CARACTERÍSTICAS TÉCNICAS:
+
+100% responsive
+Navbar fijo con efecto shrink
+Smooth scroll
+Animaciones de entrada
+Lazy loading en imágenes
+Componentes reutilizables
+Código limpio y modular
