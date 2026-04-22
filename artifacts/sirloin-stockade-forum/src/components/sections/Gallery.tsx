@@ -1,9 +1,13 @@
 import { useState } from "react";
 import { X, ZoomIn } from "lucide-react";
+import imgCortes from "@assets/imagen_1776862369590.png";
+import imgPostres from "@assets/imagen_1776862434510.png";
+import imgInterior from "@assets/imagen_1776862754866.png";
+import imgSushi from "@assets/imagen_1776862765300.png";
 
 const IMAGES = [
   {
-    src: "https://images.unsplash.com/photo-1590846406792-0adc7f928a18?q=80&w=2568&auto=format&fit=crop",
+    src: imgCortes,
     alt: "Cortes de carne a la parrilla",
     aspect: "aspect-square"
   },
@@ -13,13 +17,13 @@ const IMAGES = [
     aspect: "aspect-[4/3]"
   },
   {
-    src: "https://images.unsplash.com/photo-1582283556060-63eb5aeb8752?q=80&w=2674&auto=format&fit=crop",
+    src: imgPostres,
     alt: "Mesa con postres variados",
     aspect: "aspect-[3/4]"
   },
   {
-    src: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2574&auto=format&fit=crop",
-    alt: "Ambiente del restaurante",
+    src: imgInterior,
+    alt: "Interior del buffet",
     aspect: "aspect-[4/3]"
   },
   {
@@ -28,8 +32,8 @@ const IMAGES = [
     aspect: "aspect-square"
   },
   {
-    src: "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?q=80&w=2670&auto=format&fit=crop",
-    alt: "Estación de sushi",
+    src: imgSushi,
+    alt: "Sushi",
     aspect: "aspect-[3/4]"
   }
 ];
