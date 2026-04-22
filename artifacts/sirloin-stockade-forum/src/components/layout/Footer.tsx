@@ -56,7 +56,7 @@ export function Footer() {
           <img
             src={cuceiLogo}
             alt="CUCEI - Universidad de Guadalajara"
-            className="h-16 md:h-20 w-auto opacity-90 self-end md:self-auto"
+            className="h-[45px] md:h-[61px] w-auto opacity-90 self-end md:self-auto"
           />
         </div>
 
