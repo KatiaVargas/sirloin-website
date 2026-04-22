@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoSirloin from "@assets/imagen_1776858744356.png";
 
 export function Hero() {
   return (
@@ -16,6 +17,11 @@ export function Hero() {
 
       <div className="relative z-10 container mx-auto px-4 md:px-6 flex flex-col items-center text-center mt-16">
         <div className="animate-fade-in-up">
+          <img
+            src={logoSirloin}
+            alt="Sirloin Stockade"
+            className="mx-auto mb-8 w-40 md:w-56 lg:w-64 h-auto drop-shadow-2xl"
+          />
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white mb-6 tracking-tight drop-shadow-lg">
             Variedad sin <span className="text-secondary">Límites</span>
           </h1>

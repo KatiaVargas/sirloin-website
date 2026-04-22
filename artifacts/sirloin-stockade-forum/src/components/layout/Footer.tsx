@@ -1,4 +1,5 @@
 import { MapPin, Phone, Clock, Star, Users, ArrowRight } from "lucide-react";
+import cuceiLogo from "@assets/imagen_1776859010791.png";
 
 export function Footer() {
   return (
@@ -45,11 +46,25 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div className="text-xs text-gray-400 leading-relaxed space-y-1">
+            <p><span className="text-gray-500">Alumna:</span> Katia Paola Vargas Flores</p>
+            <p><span className="text-gray-500">Profesor:</span> Axel Daniel Saldivar Zaldivar</p>
+            <p><span className="text-gray-500">Materia:</span> Bases de datos</p>
+            <p><span className="text-gray-500">Ciclo escolar:</span> 2026A - Abril 2026</p>
+          </div>
+          <img
+            src={cuceiLogo}
+            alt="CUCEI - Universidad de Guadalajara"
+            className="h-16 md:h-20 w-auto opacity-90 self-end md:self-auto"
+          />
+        </div>
+
+        <div className="border-t border-gray-800 mt-8 pt-6 flex flex-col md:flex-row items-center justify-between gap-2">
           <p className="text-xs text-gray-500">
             &copy; {new Date().getFullYear()} Sirloin Stockade – Forum Tlaquepaque. Todos los derechos reservados.
           </p>
-          <p className="text-xs text-gray-600 flex items-center gap-1">
+          <p className="text-xs text-gray-600">
             Información basada en Google Maps
           </p>
         </div>
