@@ -1,5 +1,5 @@
 import { MapPin, Phone, Clock, Star, Users, ArrowRight } from "lucide-react";
-import cuceiLogo from "@assets/imagen_1776859010791.png";
+import cuceiLogo from "@assets/imagen_1776859246105.png";
 
 export function Footer() {
   return (
