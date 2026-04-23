@@ -49,8 +49,8 @@ export function Footer() {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div className="text-xs text-gray-400 leading-relaxed space-y-1">
             <p><span className="text-gray-500">Alumna:</span> Katia Paola Vargas Flores</p>
-            <p><span className="text-gray-500">Profesor:</span> Axel Daniel Saldivar Zaldivar</p>
-            <p><span className="text-gray-500">Materia:</span> Bases de datos</p>
+            <p><span className="text-gray-500">Profesor:</span> Zeus Emanuel Gutierrez Cobian</p>
+            <p><span className="text-gray-500">Materia:</span> Desarrollo de aplicaciones web en la nube y móviles</p>
             <p><span className="text-gray-500">Ciclo escolar:</span> 2026A - Abril 2026</p>
           </div>
           <img
